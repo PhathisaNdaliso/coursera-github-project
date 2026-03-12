@@ -18,7 +18,7 @@ Simple Interest = (P × R × T) / 100
 
 1. Clone the repository:
 
-```bash
+
 git clone https://github.com/PhathisaNdaliso/github-final-project.git
 cd github-final-project
 
@@ -40,17 +40,17 @@ Sample output:
 
 Simple Interest is: 100
 Total Amount after 2 years: 1100
-License
+## License
 
 This project is licensed under the Apache 2.0 License. See the LICENSE
  file for details.
 
-Contributing
+## Contributing
 
 All contributions are welcome! Please feel free to submit bug reports, enhancements, or ideas. See CONTRIBUTING.md
  for more information.
 
-Code of Conduct
+## Code of Conduct
 
 This project adheres to the CODE_OF_CONDUCT.md
 . By participating, you agree to follow its guidelines.
