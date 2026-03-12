@@ -1,14 +1,42 @@
-# Introduction to Git and GitHub
+# Simple Interest Calculator
 
-This repository contains the final project for the "Introduction to Git and GitHub" course. The project demonstrates proficiency in using both the GitHub User Interface (UI) and the Git Command Line Interface (CLI). 
+This repository contains a **Bash script** that calculates **Simple Interest** based on user input. The calculator prompts for the principal amount, interest rate, and time period, and then outputs the calculated interest.
 
-It includes:
+## Features
 
-- Forking a repository and cloning it locally
-- Making updates, staging, and committing changes
-- Pushing changes to a remote fork
-- Creating pull requests
-- Branch management and merges
-- Bash scripting for simple tasks
+- Prompts the user for:
+  - Principal amount (P)
+  - Annual interest rate (R) in percentage
+  - Time period (T) in years
+- Calculates Simple Interest using the formula:
+Simple Interest = (P × R × T) / 100
 
-This repository also includes standard project files such as LICENSE, CODE_OF_CONDUCT.md, CONTRIBUTING.md, and a sample Bash script for calculating simple interest.
+- Displays the result in a clear, readable format
+- Lightweight and easy to run in any Bash environment
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/PhathisaNdaliso/github-final-project.git
+cd github-final-project
+
+Make the script executable:
+
+chmod +x simple-interest.sh
+
+Run the script:
+
+./simple-interest.sh
+
+Enter the required values when prompted:
+
+Enter Principal amount: 1000
+Enter Interest rate (in %): 5
+Enter Time period (in years): 2
+
+Sample output:
+
+Simple Interest is: 100
+Total Amount after 2 years: 1100
